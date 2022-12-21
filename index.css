@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.container h1 {
+  padding: 16px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  color: #ccc;
+}
+
+.grid {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  gap: 8px;
+  text-align: center;
+  color: #ccc;
+}
+
+.grid div.blocks {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #303030;
+}
+
+.grid span {
+  font-size: 40px;
+}
+
+.grid p {
+  font-size: 14px;
+}
+
+.controls {
+  width: 226px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.controls .btn {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  width: 226px;
+  height: auto;
+  padding-top: 64px;
+  text-align: center;
+}
+
+footer a {
+  font-size: 12px;
+  color: #777777;
+}
+
+
+@media (min-width: 480px) {
+  .container h1 {
+    padding: 16px;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #ccc;
+  }
+
+  .grid {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 125px);
+    gap: 16px;
+    text-align: center;
+    color: #ccc;
+  }
+
+  .grid div.blocks {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #303030;
+  }
+
+  .grid span {
+    font-size: 80px;
+  }
+
+  .grid p {
+    font-size: 16px;
+  }
+
+  .controls {
+    width: 407px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .controls .btn {
+    width: 120px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  footer {
+    width: 407px;
+    height: auto;
+    padding-top: 64px;
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 12px;
+    color: #777777;
+  }
+
+}
