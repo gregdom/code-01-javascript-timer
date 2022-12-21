@@ -1,4 +1,4 @@
-<h1>Javascript Calculator</h1> <br />
+<h1>JavaScript Timer</h1> <br />
 
 Project created to practice Javascript, HTML5 and CSS3. <br />
 Created on 12/21/2022. <br />
